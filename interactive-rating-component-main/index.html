@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <script src="main.js"></script>
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+      <div class="wrapper" id="wrapper">
+        <div class="wrapper__image">
+          <img src="images/icon-star.svg" title="icon-star">
+        </div>
+
+        <!-- Rating state start -->
+        <div class="wrapper__title">
+          <h1>How did we do?</h1>
+        </div>
+
+        <div class="wrapper__subtitle">
+          <h2>
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </h2>
+
+        </div>
+
+        <div class="wrapper__numbers" id="cajon__numbers">
+        </div>
+        <!-- <p id="valor"> </p> -->
+        
+        <div class="wrapper__button">
+          <button class="submit"  type="submit" id="boton-submit" onclick="mostrarDiv()">Submit</button>
+          
+          <!-- <a href="thanks.html" title="thanks">Submit </a> -->
+        </div>
+      </div>
+        <div class="card__items" id="card__items">
+            
+          <div class="items__image">
+              <img class="image__page" src="images/illustration-thank-you.svg" title="THanks">
+          </div>
+          
+          <div class="items__title" >
+              <h2 id="valor"></h2>
+          </div>
+          
+          <div class="items__thanks">
+              <h1>  
+                  Thank you  
+              </h1>
+          </div>
+          
+          <div class="items__subtitle">
+              <h3 >
+                  We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+                  
+              </h3>
+          </div>
+          
+      
+      
+        
+      </div>  
+      <script>RENDERBUTTONS(element)</script>
+    </body>
+    </html>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
